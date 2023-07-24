@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Free Code Camp Survey Form</title>
+</head>
+<body>
+    <div class="container container-header">
+        <h1>freeCodeCamp Survery Form</h1>
+        <p><em>Thank you for taking the time to help us improve the platform</em></p>  
+    </div>
+
+    <div class="container container-form">
+        <form action="#" method="post">
+            <label for="name">
+                Name
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </label>
+            <label for="email">
+                Name
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </label>
+            <label for="age">
+                Age(optional)
+                <input type="number" id="age" placeholder="Age" min="13" max="120">
+            </label>
+            <label for="role">
+                Which option best describes your current role?
+                <select id="role" value="Select Current Role" value="Select current role" required>
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full Time Job</option> 
+                    <option value="full-time-learner">Full Time Learner</option> 
+                    <option value="prefer-not">Prefer not to say</option> 
+                    <option value="other">Other</option>  
+                </select>
+            </label>
+            <div class="group">
+                <p>What would you like to see improves? <span>(Check all that apply)</span></p>
+                <label for="front-end">
+                    <input type="checkbox" name="front-end" id="front-end"> Front-End Projects
+                </label>
+                <label for="back-end">
+                    <input type="checkbox" name="back-end" id="back-end"> Back-End Projects
+                </label>
+                <label for="data-visualization">
+                    <input type="checkbox" name="data-visualization" id="data-visualization"> Data Visualization
+                </label>
+                <label for="challenges">
+                    <input type="checkbox" name="challenges" id="challenges"> Challenges
+                </label>
+                <label for="open-source">
+                    <input type="checkbox" name="open-source" id="open-source"> Open Source Community
+                </label>
+                <label for="front-end">
+                    <input type="checkbox" name="front-end" id="front-end"> Gitter help rooms
+                </label>
+                <label for="front-end">
+                    <input type="checkbox" name="front-end" id="front-end"> Videos
+                </label>
+                <label for="city-meetups">
+                    <input type="checkbox" name="city-meetups" id="city-meetups"> City Meetups
+                </label>
+                <label for="wiki">
+                    <input type="checkbox" name="wiki" id="wiki"> Wiki
+                </label>
+                <label for="forum">
+                    <input type="checkbox" name="forum" id="forum"> Forum
+                </label>
+                <label for="additional-courses">
+                    <input type="checkbox" name="additional-courses" id="additional-courses"> Additional Courses
+                </label>
+            </div>
+            
+
+            <label for="comments">
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+            </label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
