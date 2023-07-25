@@ -1,0 +1,111 @@
+/* Fonts
+__________________________*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* Colors & Images
+__________________________*/
+:root {
+    --dark-green: #0C1618;
+    --dark-green_rgb: 12, 22, 24;
+    --medium-green: #004643;
+    --medium-green_rgb: 0, 70, 67;
+    --light-green: #89BD9E;
+    --light-green_rgb: 137, 189, 158;
+    --dark-pink: #9E0031;
+    --dark-pink_rgb: 158, 0, 49;
+    --light-pink: #B24C63;
+    --light-pink_rgb: 178, 76, 99;
+    --off-white: #f2f2f2;
+    --off-white_rgb: 242, 242, 242;
+    --gray: #aeaeae;
+    --gray_rgb: 174, 174, 174;
+    --bg-image: url("assets/images/pexels-vasanth-babu-797793.jpg");
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 1.8rem;
+    color: #fff;
+    background-image: 
+        linear-gradient(
+            to bottom,
+            rgba(var(--light-green_rgb), 0.3), 
+            rgba(var(--dark-green_rgb), 0.6) ),
+            var(--bg-image);
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+h2 {}
+h3 {}
+
+.tagline {
+    text-shadow:0 0 3px rgba(var(--dark-green_rgb), 0.6);
+}
+
+.container {
+    display: block;
+    width: 45%;
+    max-width: 1000px;
+    min-width: 500px;
+    padding: 5rem;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.container-header {
+    text-align: center;
+    color: #fff;
+}
+
+.container-form {
+    background-color: rgba(var(--medium-green_rgb), 0.9);
+}
+
+.form-element {
+    margin-bottom: 2rem;
+}
+
+.form-element > * {
+    display: block;
+}
+
+.container-checkboxes > * {
+    display: inline-block;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+}
+
+input:not([type="checkbox"]), select, textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: -1px;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    width: 100%;
+}
