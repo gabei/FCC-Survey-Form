@@ -52,7 +52,7 @@ h3 {}
     display: block;
     width: 45%;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 350px;
     padding: 5rem;
     margin: 0 auto;
     border-radius: 6px;
@@ -61,6 +61,7 @@ h3 {}
 .container-header {
     text-align: center;
     color: #fff;
+    padding-bottom: 2rem;
 }
 
 .container-form {
@@ -91,6 +92,7 @@ input:not([type="checkbox"]), select, textarea {
     width: 100%;
     padding: 1rem;
     font-size: 1.6rem;
+    box-sizing: border-box;
 }
 
 input[type="checkbox"] {
