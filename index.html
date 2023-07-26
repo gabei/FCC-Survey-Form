@@ -16,19 +16,19 @@
     <div class="container container-form">
         <form>
             <div class="form-element">
-                <label for="name">Name</label>
+                <label for="name" id="label-name">Name</label>
                 <input type="text" id="name" placeholder="Enter your name" required>
             </div>
             <div class="form-element">
-                <label for="email">Email</label>
+                <label for="email" id="label-email">Email</label>
                 <input type="email" id="email" placeholder="Enter your email" required>
             </div>
             <div class="form-element">
-                <label for="age">Age (optional)</label>
+                <label for="age" id="label-age">Age (optional)</label>
                 <input type="number" id="age" placeholder="Age" min="13" max="120">
             </div>
             <div class="form-element">
-                <label for="role">Which option best describes your current role?</label>
+                <label for="role" id="label-role">Which option best describes your current role?</label>
                 <select id="role" required>
                     <option selected="true" disabled="disabled">Select current role</option>
                     <option value="student">Student</option>
@@ -39,45 +39,55 @@
                 </select>
             </div>
 
-            <p>What would you like to see improves? <span>(Check all that apply)</span></p>
+            <p>Would you recommend freeGardeningCamp to a friend?</p>
+            <div class="form-element container-radio">
+                <input type="radio" name="recommend" value="yes">
+                <label for="yes" id="yes">Yes</label>
+            </div>
+            <div class="form-element container-radio">
+                <input type="radio" name="recommend" value="no">
+                <label for="no" id="no">No</label>
+            </div>
+
+            <p>What would you like to see improved? <span>(Check all that apply)</span></p>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="front-end" id="front-end"> 
-                <label for="front-end">Watering Guide</label>
+                <input type="checkbox" name="watering-guide" id="watering-guide" value="watering-guide"> 
+                <label for="watering-guide">Watering Guide</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="back-end" id="back-end">
-                <label for="back-end">Plant Growth Speed</label>
+                <input type="checkbox" name="plant-growth" id="plant-growth" value="plant-growth">
+                <label for="plant-growth">Plant Growth Speed</label>
             </div>
             <div class="form-element container-checkboxes">    
-                <input type="checkbox" name="data-visualization" id="data-visualization"> 
-                <label for="data-visualization">Seed Sowing Diagrams</label>
+                <input type="checkbox" name="seed-sowing" id="seed-sowing" value="seed-sowing"> 
+                <label for="seed-sowing">Seed Sowing Diagrams</label>
             </div>
             <div class="form-element container-checkboxes">  
-                <input type="checkbox" name="challenges" id="challenges"> 
-                <label for="challenges">Pruning Tutorial</label>
+                <input type="checkbox" name="pruning" id="pruning" value="pruning"> 
+                <label for="pruning">Pruning Tutorial</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="open-source" id="open-source"> 
-                <label for="open-source">Community Garden Access</label>
+                <input type="checkbox" name="community" id="community" value="community"> 
+                <label for="community">Community Garden Access</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="front-end" id="front-end"> 
-                <label for="front-end">Videos</label>
+                <input type="checkbox" name="videos" id="videos" value="videos"> 
+                <label for="videos">Videos</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="city-meetups" id="city-meetups"> 
+                <input type="checkbox" name="city-meetups" id="city-meetups" value="city-meetups"> 
                 <label for="city-meetups">City Meetups</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="wiki" id="wiki"> 
+                <input type="checkbox" name="wiki" id="wiki" value="wiki"> 
                 <label for="wiki">Wiki</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="forum" id="forum"> 
+                <input type="checkbox" name="forum" id="forum" value="forum"> 
                 <label for="forum">Forum</label>
             </div>
             <div class="form-element container-checkboxes">
-                <input type="checkbox" name="additional-courses" id="additional-courses"> 
+                <input type="checkbox" name="additional-courses" id="additional-courses" value="additional-courses"> 
                 <label for="additional-courses">Additional Courses</label>
             </div>
             
