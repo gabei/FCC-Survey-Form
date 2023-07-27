@@ -2,7 +2,7 @@
 __________________________*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
 
-/* Colors & Images
+/* Colors, Images, Borders
 __________________________*/
 :root {
     --dark-green: #0C1618;
@@ -21,6 +21,7 @@ __________________________*/
     --gray_rgb: 174, 174, 174;
     --bg-image: url("assets/images/pexels-vasanth-babu-797793.jpg");
     --default-border-rad: 5px;
+
 }
 
 html {
