@@ -28,7 +28,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
     color: var(--off-white);
     background-image: 
@@ -80,6 +80,10 @@ label {
     margin-bottom: 1rem;
 }
 
+.container-form label {
+    display: inline-block;
+}
+
 p {
     display: block;
 }
@@ -111,10 +115,6 @@ input[type="radio"] {
     min-width: 1.5rem;
 }
 
-textarea {
-    resize: none;
-}
-
 input[type="submit"] {
     margin: 0 auto;
     padding: 1rem 3rem;
@@ -129,4 +129,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: var(--dark-pink);
     cursor: pointer;
+}
+
+textarea {
+    resize: none;
 }
