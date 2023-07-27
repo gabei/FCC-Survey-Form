@@ -44,6 +44,10 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+.small-font {
+    font-size: 1.6rem;
+}
+
 .tagline {
     text-shadow:0 0 3px rgba(var(--dark-green_rgb), 0.6);
 }
