@@ -84,10 +84,6 @@ label {
     display: inline-block;
 }
 
-p {
-    display: block;
-}
-
 input:not([type="checkbox"]):not([type="radio"]), 
 select, 
 textarea {
